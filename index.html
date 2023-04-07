@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css" />
+    <script src="js/config.js" type="module"></script>
+    <script src="https://js.arcgis.com/4.26/"></script>
+    <script src="js/connect.js" type="module"></script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+    <button id="add-event-btn" title="Add an event!">+</button>
+    <form id="event-form">
+      <label for="eventName">Event</label>
+      <input type="text" name="eventName" id="eventName" required />
+      <label for="eventDetail">Details</label>
+      <textarea name="eventDescription" id="eventDetail" cols="30" rows="5" maxlength="300" required></textarea>
+      <p>Select a location anywhere on the map</p>
+      <table>
+        <tr>
+          <td>Lat</td>
+          <td>Long</td>
+        </tr>
+        <tr>
+          <td><input type="number" name="lat" id="lat" required /></td>
+          <td><input type="number" name="long" id="long" required /></td>
+        </tr>
+      </table>
+      <input type="submit" value="Add Event" />
+      <input type="button" value="Cancel" id="cancel-btn" />
+    </form>
+    <script src="/data/events.json"></script>
+  </body>
+</html>
