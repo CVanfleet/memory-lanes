@@ -1,0 +1,32 @@
+{
+  "name": "memory-lanes",
+  "version": "1.0.0",
+  "description": "Memory Lanes app. Allows users to save and share memories",
+  "main": "main.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint *.js src/**/*.js",
+    "format": "prettier --ignore-path ./.gitignore --write \"./**/*.{html,json,js,ts,css}\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CVanfleet/memory-lanes.git"
+  },
+  "author": "Clayton Vanfleet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CVanfleet/memory-lanes/issues"
+  },
+  "homepage": "https://github.com/CVanfleet/memory-lanes#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^25.0.0",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.9"
+  }
+}

@@ -8,9 +8,15 @@ I plan on improving this later on, I will probably use a more useful framework l
 
 # Development Environment
 
-I ended up using the server Live-Server with Visual Studio Code (this is why I was having so many issues, because live-server does not do great with HTTP requests)
-
 This was written in HTML/CSS/JS with a JSON file to sync data
+
+Node.js framework to get it up and running locally
+
+User Memory Lanes API
+
+ArcGIS API to display map UI 
+
+Will publish in render
 
 # Useful Websites
 
